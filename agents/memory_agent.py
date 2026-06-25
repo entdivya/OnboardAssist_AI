@@ -1,4 +1,6 @@
 import sqlite3
+import os
+
 
 DB_PATH = "memory/onboarding.db"
 
