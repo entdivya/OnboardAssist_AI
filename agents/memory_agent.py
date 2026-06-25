@@ -11,6 +11,9 @@ DB_PATH = "memory/onboarding.db"
 
 def initialize_db():
 
+    # Create memory folder if it doesn't exist
+    os.makedirs("memory", exist_ok=True)
+
     conn = sqlite3.connect(DB_PATH)
 
     cursor = conn.cursor()
