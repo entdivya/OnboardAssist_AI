@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environment
+venv/
+policyagent/
+
+# Environment Variables
+.env
+
+# SQLite
+memory/*.db
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
